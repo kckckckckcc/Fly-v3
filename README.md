@@ -7,7 +7,7 @@ _🎮 Description_
 A unique flying script developed by _[hussein_313_113]_ , providing a smooth flying experience inside Roblox. It features a simple user interface with multiple control buttons such as flying, increasing speed, decreasing speed, and closing.
 
 _🔗 Script Link_
-[Click here to download the script]((https://scriptblox.com/script/Universal-Script-Fly-v3-48714 ))
+[https://scriptblox.com/script/Universal-Script-Fly-v3-48714](( ))
 
 _🧠 Features_
 - Fly on/off button
