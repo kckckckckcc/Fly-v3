@@ -22,6 +22,16 @@ if not player:FindFirstChild("FirstRunNotification") then
         Duration = 10
     })
 
+
+
+
+
+
+
+
+
+
+
     -- نسخ الاسم تلقائي في الحافظة
     setclipboard("Hussein51613469")
 end
