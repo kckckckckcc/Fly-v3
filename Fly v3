@@ -1,3 +1,21 @@
+-- إشعارات دخول وخروج اللاعبين تلقائي
+game.Players.PlayerAdded:Connect(function(player)
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "دخول لاعب",
+        Text = player.Name .. " دخل السيرفر",
+        Duration = 3
+    })
+end)
+
+game.Players.PlayerRemoving:Connect(function(player)
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "خروج لاعب",
+        Text = player.Name .. " خرج من السيرفر",
+        Duration = 3
+    })
+end)
+
+
 
 local main = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
