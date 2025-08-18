@@ -18,7 +18,7 @@ if not player:FindFirstChild("FirstRunNotification") then
     -- إشعار للتواصل مع المطور + نسخ الاسم تلقائي
     StarterGui:SetCore("SendNotification", {
         Title = "مرحبًا بك!",
-        Text = "للتواصل مع المطور Roblox: Hussein51613469",
+        Text = "للتواصل مع المطور Roblox: Hussein463456",
         Duration = 10
     })
 
@@ -33,7 +33,7 @@ if not player:FindFirstChild("FirstRunNotification") then
 
 
     -- نسخ الاسم تلقائي في الحافظة
-    setclipboard("Hussein51613469")
+    setclipboard("Hussein463456")
 end
 game.Players.PlayerRemoving:Connect(function(player)
     game:GetService("StarterGui"):SetCore("SendNotification", {
